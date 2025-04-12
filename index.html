@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Expiry Date Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Grocery Expiry Tracker</h2>
+            <button id="add-item-btn">Add Item</button>
+        </div>
+
+        <div class="add-item-form" id="add-item-form">
+            <input type="text" id="item-name" placeholder="Enter grocery item">
+            <input type="date" id="expiry-date">
+            <button id="submit-item">Add Item</button>
+            <button id="cancel-btn">Cancel</button>
+        </div>
+
+        <ul id="grocery-list">
+            <!-- Dynamic grocery items will appear here -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
